@@ -1,0 +1,15 @@
+Ceníme práci na projektu! 🏆 Prohlédli jsme si kód a máme k němu následující poznámky:
+
+1. Pojmenování identifikátorů - PersonStatisticEntity se jmenuje entity ale není entity, v maperu se vyskytují dvě metody toDTO a mapToDTO, podle názvu je nelze rozlišit.
+2. Dodržení principů SRP a SoC - OK
+3. Vhodný výběr datových typů - OK
+4. Formátování kódu - OK 
+5. Duplicitní kód a nekonečné cykly - Bez nek. cyklů a duplicit, tj. OK.
+6. Validace vstupních dat - Není.
+7. Logičnost a složitost - V projektu je použito criteriaAPI, ale pak se stejně pro selekci statistik používá @Quary. Logika pro výpočet statistik mohla být značně jednodušší a efektivnější například i pomocí Java streams.
+8. Komentáře - Pouze někde, ale cením JavaDoc.
+9. Celkové hodnocení - Zadání splněno s menšími výhradami k dobrým praktikám a logičnosti.
+
+Doporučujeme případné výtky v kódu opravit, abyste jej mohli pak prezentovat budoucímu zaměstnavateli v co nejlepší kvalitě. 
+
+Pokud byste potřebovali s čímkoli pomoci, naplánujte si s námi konzultaci, rádi vám poradíme!
